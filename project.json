@@ -3,6 +3,7 @@
   "description": "Robotic Enterprise Framework",
   "main": "Main.xaml",
   "dependencies": {
+    "UiPath.DataService.Activities": "[21.10.1]",
     "UiPath.Excel.Activities": "[2.11.4]",
     "UiPath.Mail.Activities": "[1.15.1]",
     "UiPath.System.Activities": "[21.10.4]",
@@ -10,7 +11,14 @@
     "UiPath.UIAutomation.Activities": "[21.10.5]"
   },
   "webServices": [],
-  "entitiesStores": [],
+  "entitiesStores": [
+    {
+      "serviceDocument": ".entities/EntitiesStore.json",
+      "tenantName": "DefaultTenant",
+      "namespace": "Reframework_LinkedinResume",
+      "uniqueReference": "76/80xKh+MsQZUkXs38AoXGkaYdMlSJgknbTtC/gw9U="
+    }
+  ],
   "schemaVersion": "4.0",
   "studioVersion": "21.10.5.0",
   "projectVersion": "1.0.5",
